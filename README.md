@@ -62,7 +62,10 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="contribution graph แบบ 3 มิติ" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-night-green.svg" />
+    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="contribution graph แบบ 3 มิติ" />
+  </picture>
 </p>
 
 <p align="center">
