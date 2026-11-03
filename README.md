@@ -41,6 +41,8 @@
 
 ## สถิติ
 
+<!-- ปิดไว้ชั่วคราว 4 พ.ย. 2026: บริการสาธารณะ trophy / readme-stats / streak-stats / activity-graph เกินโควตา (402/503)
+     เปิดกลับเมื่อย้ายไป host เองบน Vercel ของเราแล้ว
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=VoramethP&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&title=Commits,Stars,Repositories,PullRequest,Issues,Followers" alt="GitHub trophies" />
 </p>
@@ -57,9 +59,10 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=VoramethP&bg_color=0b0f21&color=e6edf3&line=3bce69&point=64d888&area=true&area_color=3bce69&hide_border=true&custom_title=Contributions%20(last%2031%20days)" width="100%" alt="กราฟ contribution 31 วันล่าสุด" />
 </p>
+-->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="contribution graph แบบ 3 มิติ" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="contribution graph แบบ 3 มิติ" />
 </p>
 
 <p align="center">
