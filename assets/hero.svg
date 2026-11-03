@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Vorameth Patummasut · Web Developer · Nuxt · PostgreSQL">
+  <defs>
+    <radialGradient id="g1"><stop offset="0" stop-color="#3bce69" stop-opacity=".55"/><stop offset="1" stop-color="#3bce69" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#4f7cff" stop-opacity=".45"/><stop offset="1" stop-color="#4f7cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/><stop offset=".45" stop-color="#e6edf3"/><stop offset=".5" stop-color="#3bce69"/><stop offset=".55" stop-color="#e6edf3"/><stop offset="1" stop-color="#e6edf3"/>
+      <animate attributeName="x1" values="-1;1" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#3bce69" stop-opacity="0"/><stop offset=".5" stop-color="#3bce69"/><stop offset="1" stop-color="#3bce69" stop-opacity="0"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#3bce69" opacity=".18"/></pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+      .name{font-size:46px;font-weight:700;letter-spacing:-.5px}
+      .sub{font-size:17px;fill:#9fb3c8;opacity:0;animation:up .9s .5s ease-out forwards}
+      .th{font-size:15px;fill:#3bce69;opacity:0;animation:up .9s 1s ease-out forwards}
+      .tag{font-size:11px;fill:#0b0f21;font-weight:700;letter-spacing:1.2px}
+      .pill{opacity:0;animation:up .7s ease-out forwards}
+      .p1{animation-delay:1.4s}.p2{animation-delay:1.6s}.p3{animation-delay:1.8s}.p4{animation-delay:2s}
+      .node{animation:pulse 2.4s ease-in-out infinite}
+      .n2{animation-delay:.6s}.n3{animation-delay:1.2s}.n4{animation-delay:1.8s}
+      .wire{stroke:#3bce69;stroke-width:1.2;fill:none;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 2.6s .3s ease-out forwards}
+      .w2{animation-delay:.9s}.w3{animation-delay:1.5s}
+      .pkt{animation:travel 3.2s 2.8s linear infinite}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+      @keyframes pulse{0%,100%{opacity:.55;r:4}50%{opacity:1;r:6}}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      @keyframes travel{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
+      @keyframes scan{from{transform:translateX(-400px)}to{transform:translateX(1400px)}}
+    </style>
+  </defs>
+
+  <rect width="1000" height="260" fill="#0b0f21"/>
+  <rect width="1000" height="260" fill="url(#dots)"/>
+
+  <g filter="url(#blur)">
+    <circle cx="160" cy="60" r="150" fill="url(#g1)"><animateTransform attributeName="transform" type="translate" values="0 0;80 50;0 0" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="220" r="170" fill="url(#g2)"><animateTransform attributeName="transform" type="translate" values="0 0;-90 -60;0 0" dur="13s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- network on the right: forms → permissions → report -->
+  <g transform="translate(640 40)">
+    <path id="wa" class="wire" d="M40 40 C120 40 120 110 200 110"/>
+    <path class="wire w2" d="M40 40 C120 40 120 160 200 160"/>
+    <path class="wire w3" d="M200 110 C250 110 250 60 300 60 M200 160 C250 160 250 60 300 60"/>
+    <circle class="node" cx="40" cy="40" r="5" fill="#3bce69" filter="url(#glow)"/>
+    <circle class="node n2" cx="200" cy="110" r="5" fill="#3bce69" filter="url(#glow)"/>
+    <circle class="node n3" cx="200" cy="160" r="5" fill="#3bce69" filter="url(#glow)"/>
+    <circle class="node n4" cx="300" cy="60" r="5" fill="#64d888" filter="url(#glow)"/>
+    <circle class="pkt" r="3" fill="#ffffff" style="offset-path:path('M40 40 C120 40 120 110 200 110 C250 110 250 60 300 60')"/>
+    <g class="t" fill="#9fb3c8" font-size="11">
+      <text x="52" y="36">forms</text>
+      <text x="212" y="106">roles</text>
+      <text x="212" y="178">audit log</text>
+      <text x="312" y="56">PDF report</text>
+    </g>
+  </g>
+
+  <g class="t">
+    <text class="name" x="60" y="118" fill="url(#shine)">Vorameth Patummasut</text>
+    <text class="sub" x="60" y="150">Web Developer · Nuxt · Vue · PostgreSQL</text>
+    <text class="th" x="60" y="178">ทำระบบงานองค์กร ตั้งแต่ฟอร์ม สิทธิ์ผู้ใช้ ไปจนถึงรายงาน PDF</text>
+  </g>
+
+  <g class="t">
+    <g class="pill p1"><rect x="60" y="200" rx="12" width="86" height="24" fill="#3bce69"/><text class="tag" x="103" y="216" text-anchor="middle">NUXT 4</text></g>
+    <g class="pill p2"><rect x="154" y="200" rx="12" width="110" height="24" fill="#3bce69"/><text class="tag" x="209" y="216" text-anchor="middle">TYPESCRIPT</text></g>
+    <g class="pill p3"><rect x="272" y="200" rx="12" width="114" height="24" fill="#3bce69"/><text class="tag" x="329" y="216" text-anchor="middle">POSTGRESQL</text></g>
+    <g class="pill p4"><rect x="394" y="200" rx="12" width="94" height="24" fill="#131a31" stroke="#3bce69"/><text class="tag" x="441" y="216" text-anchor="middle" fill="#3bce69">LOW-CODE</text></g>
+  </g>
+
+  <rect class="scan" x="0" y="256" width="400" height="4" fill="url(#line)"/>
+</svg>

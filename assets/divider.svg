@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 6" width="1000" height="6" aria-hidden="true">
+  <defs>
+    <linearGradient id="base" x1="0" x2="1"><stop offset="0" stop-color="#3bce69" stop-opacity="0"/><stop offset=".5" stop-color="#3bce69" stop-opacity=".35"/><stop offset="1" stop-color="#3bce69" stop-opacity="0"/></linearGradient>
+    <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#64d888" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#64d888" stop-opacity="0"/></linearGradient>
+    <style>.b{animation:sweep 3.5s ease-in-out infinite}@keyframes sweep{0%{transform:translateX(-300px)}100%{transform:translateX(1300px)}}</style>
+  </defs>
+  <rect y="2" width="1000" height="2" rx="1" fill="url(#base)"/>
+  <rect class="b" y="1" width="300" height="4" rx="2" fill="url(#beam)"/>
+</svg>
