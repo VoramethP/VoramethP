@@ -41,25 +41,22 @@
 
 ## สถิติ
 
-<!-- ปิดไว้ชั่วคราว 4 พ.ย. 2026: บริการสาธารณะ trophy / readme-stats / streak-stats / activity-graph เกินโควตา (402/503)
-     เปิดกลับเมื่อย้ายไป host เองบน Vercel ของเราแล้ว
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=VoramethP&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&title=Commits,Stars,Repositories,PullRequest,Issues,Followers" alt="GitHub trophies" />
+  <img src="https://gh-trophy.vercel.app/?username=VoramethP&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&title=Commits,Stars,Repositories,PullRequest,Issues,Followers" alt="GitHub trophies" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=VoramethP&show_icons=true&hide_border=true&bg_color=0b0f21&title_color=3bce69&icon_color=3bce69&text_color=e6edf3" alt="สถิติ GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VoramethP&layout=compact&hide=c%2B%2B,cmake,dart,swift,c,kotlin,objective-c&hide_border=true&bg_color=0b0f21&title_color=3bce69&text_color=e6edf3" alt="ภาษาที่ใช้บ่อย" />
+  <img height="165" src="https://gh-stats-hazel.vercel.app/api?username=VoramethP&show_icons=true&hide_border=true&bg_color=0b0f21&title_color=3bce69&icon_color=3bce69&text_color=e6edf3" alt="สถิติ GitHub" />
+  <img height="165" src="https://gh-stats-hazel.vercel.app/api/top-langs/?username=VoramethP&layout=compact&hide=c%2B%2B,cmake,dart,swift,c,kotlin,objective-c&hide_border=true&bg_color=0b0f21&title_color=3bce69&text_color=e6edf3" alt="ภาษาที่ใช้บ่อย" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=VoramethP&hide_border=true&background=0b0f21&ring=3bce69&fire=3bce69&currStreakLabel=3bce69&sideLabels=e6edf3&dates=9198a1&currStreakNum=e6edf3&sideNums=e6edf3" alt="จำนวนวันที่ commit ต่อเนื่อง" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/streak.svg" alt="จำนวนวันที่ commit ต่อเนื่อง" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VoramethP&bg_color=0b0f21&color=e6edf3&line=3bce69&point=64d888&area=true&area_color=3bce69&hide_border=true&custom_title=Contributions%20(last%2031%20days)" width="100%" alt="กราฟ contribution 31 วันล่าสุด" />
+  <img src="https://gh-activity-theta.vercel.app/graph?username=VoramethP&bg_color=0b0f21&color=e6edf3&line=3bce69&point=64d888&area=true&area_color=3bce69&hide_border=true&custom_title=Contributions%20(last%2031%20days)" width="100%" alt="กราฟ contribution 31 วันล่าสุด" />
 </p>
--->
 
 <p align="center">
   <picture>
