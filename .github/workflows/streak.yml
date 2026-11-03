@@ -1,0 +1,31 @@
+# สร้างการ์ด "วันที่ commit ต่อเนื่อง" เป็นไฟล์ SVG ใน repo นี้ทุกวัน (ไม่พึ่ง streak-stats.demolab.com ที่ล่มบ่อย)
+name: streak
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=0b0f21&ring=3bce69&fire=3bce69&currStreakLabel=3bce69&sideLabels=e6edf3&dates=9198a1&currStreakNum=e6edf3&sideNums=e6edf3
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the new card
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile/streak.svg
+          git commit -m "chore: update streak card" || echo "no changes"
+          git push
