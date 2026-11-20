@@ -1,0 +1,43 @@
+# วาดการ์ดใน README ใหม่ทุกเช้า (hero · tile 3 ใบ · contributions · languages · เส้นคั่น · ท้ายหน้า) ทั้งธีมมืดและสว่าง
+# ข้อมูลมาจาก GitHub GraphQL ด้วย PROFILE_PAT (อ่าน private repo ได้ เพื่อให้ตัวเลข commit และสัดส่วนภาษาครบ)
+name: cards
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/render_cards.py"
+      - "fonts/**"
+      - ".github/workflows/cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tools
+        run: pip install --quiet fonttools brotli
+
+      - name: Render README cards
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_PAT }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/render_cards.py
+
+      - name: Commit the new cards
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile/cards
+          git commit -m "chore: render README cards" || echo "no changes"
+          git push

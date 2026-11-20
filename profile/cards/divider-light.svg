@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 14" width="100%" role="presentation">
+<style>.run{stroke-dasharray:4 10;animation:mv 1.6s linear infinite} @keyframes mv{to{stroke-dashoffset:-14}} @media (prefers-reduced-motion:reduce){.run{animation:none}}</style>
+<line class="run" x1="0" y1="7" x2="1000" y2="7" stroke="#d0d7de" stroke-width="2" stroke-linecap="round"/>
+<circle cx="500" cy="7" r="4" fill="#1a7f37"/>
+</svg>

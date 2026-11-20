@@ -1,5 +1,14 @@
+<!--
+  โปรไฟล์ v3 "แบบฟอร์มที่ได้รับอนุมัติ" — การ์ดทุกใบใน profile/cards/ วาดโดย scripts/render_cards.py (Action: cards.yml ทุกเช้า)
+  แต่ละใบมี 2 ไฟล์ -dark / -light เลือกด้วย <picture> ตามธีมของคนดู · งูมาจาก Action snake.yml (branch output)
+  ต้นฉบับและ log: Application Docs/build/draft/github-profile/
+-->
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/assets/hero.svg" width="100%" alt="Vorameth Patummasut · Web Developer · Nuxt · PostgreSQL" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/hero-dark.svg" />
+    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/hero-light.svg" width="100%" alt="Vorameth Patummasut · Web Developer · แบบฟอร์มโปรไฟล์ที่ได้รับอนุมัติ" />
+  </picture>
 </p>
 
 <p align="center">
@@ -16,7 +25,10 @@
 - 🧩 สร้าง **Nuxel** แพลตฟอร์ม low-code ของตัวเองสำหรับประกอบระบบงานองค์กร (repo เป็น private)
 - 🏆 **Medimove** ได้ที่ 1 ในงาน Advantech AIoT InnoWorks Thailand 2024
 
-<img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/assets/divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-light.svg" width="100%" alt="" />
+</picture>
 
 ## เครื่องมือที่ใช้
 
@@ -26,7 +38,10 @@
 
 และ Nuxt UI · Drizzle ORM · Zod · Vitest
 
-<img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/assets/divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-light.svg" width="100%" alt="" />
+</picture>
 
 ## ผลงาน
 
@@ -37,33 +52,37 @@
 | [kidney-stone-detector](https://github.com/VoramethP/kidney-stone-detector) · [demo](https://voramethp.github.io/kidney-stone-detector/) | หานิ่วในไตจากภาพฟิล์มด้วยโมเดล YOLOv8 ที่เทรนเอง | Python · YOLOv8 · JavaScript |
 | [Medimove](https://github.com/VoramethP/Medimove-Project-website) | เว็บของโปรเจกต์ Medimove ที่ได้ที่ 1 ในงาน Advantech AIoT InnoWorks Thailand 2024 | HTML · CSS |
 
-<img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/assets/divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-light.svg" width="100%" alt="" />
+</picture>
 
 ## สถิติ
 
-<p align="center">
-  <img src="https://gh-trophy.vercel.app/?username=VoramethP&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8&title=Commits,Stars,Repositories,PullRequest,Issues,Followers" alt="GitHub trophies" />
+<p>
+  <a href="https://vorameth.vercel.app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile1-dark.svg" />
+    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile1-light.svg" width="32.5%" alt="Portfolio · vorameth.vercel.app" />
+  </picture></a>
+  <a href="https://fastwork.com/user/vorameth"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile2-dark.svg" />
+    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile2-light.svg" width="32.5%" alt="Fastwork · รับทำระบบงานองค์กร" />
+  </picture></a>
+  <a href="https://www.linkedin.com/in/vorameth-patummasut-a9954733a/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile3-dark.svg" />
+    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/tile3-light.svg" width="32.5%" alt="LinkedIn · ประวัติการทำงาน" />
+  </picture></a>
 </p>
 
-<p align="center">
-  <img height="165" src="https://gh-stats-hazel.vercel.app/api?username=VoramethP&show_icons=true&hide_border=true&bg_color=0b0f21&title_color=3bce69&icon_color=3bce69&text_color=e6edf3" alt="สถิติ GitHub" />
-  <img height="165" src="https://gh-stats-hazel.vercel.app/api/top-langs/?username=VoramethP&layout=compact&hide=c%2B%2B,cmake,dart,swift,c,kotlin,objective-c&hide_border=true&bg_color=0b0f21&title_color=3bce69&text_color=e6edf3" alt="ภาษาที่ใช้บ่อย" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/contrib-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/contrib-light.svg" width="100%" alt="รายงานสรุป contributions ปีที่ผ่านมา" />
+</picture>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/streak.svg" alt="จำนวนวันที่ commit ต่อเนื่อง" />
-</p>
-
-<p align="center">
-  <img src="https://gh-activity-theta.vercel.app/graph?username=VoramethP&bg_color=0b0f21&color=e6edf3&line=3bce69&point=64d888&area=true&area_color=3bce69&hide_border=true&custom_title=Contributions%20(last%2031%20days)" width="100%" alt="กราฟ contribution 31 วันล่าสุด" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-night-green.svg" />
-    <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="contribution graph แบบ 3 มิติ" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/langs-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/langs-light.svg" width="100%" alt="สัดส่วนภาษาที่ใช้" />
+</picture>
 
 <p align="center">
   <picture>
@@ -72,11 +91,18 @@
   </picture>
 </p>
 
-<img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/assets/divider.svg" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/divider-light.svg" width="100%" alt="" />
+</picture>
 
 ## ติดต่อ
 
 [![Email](https://img.shields.io/badge/Email-0b0f21?style=for-the-badge&logo=gmail&logoColor=3bce69)](mailto:woramet.t2@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0b0f21?style=for-the-badge&logo=linkedin&logoColor=3bce69)](https://www.linkedin.com/in/vorameth-patummasut-a9954733a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0b0f21?style=for-the-badge&logo=vercel&logoColor=3bce69)](https://vorameth.vercel.app)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3bce69,100:0b0f21&height=100&section=footer&animation=twinkling" width="100%" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/footer-dark.svg" />
+  <img src="https://raw.githubusercontent.com/VoramethP/VoramethP/main/profile/cards/footer-light.svg" width="100%" alt="" />
+</picture>
